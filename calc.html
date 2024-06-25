@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+
+</head>
+<body>
+    <div class="topo">
+       <div class="topo">
+          <img src="/calculadora.png" alt="Calculadora" height="80" width="80">
+          <a class="logo" href="/SSS.htm"> Calculadora.Net </a>
+       </div>
+    </div>
+    <header>
+        <h1>Calculadora Simples</h1> 
+        
+    </header>
+  <section>
+      <div class="quadrado">
+        <div class="input">
+           <input type="number" placeholder="número" min="0" max="10000000" class="n1">
+           <br><br>
+           <input type="number" placeholder="número" min="0" max="10000000" class="n2">
+           <br><br>
+           <p class="p"></p>
+        </div>
+
+        <div class="container">
+           <button onclick="somar()" class="button">Somar</button> <br>
+           <button onclick="subtrair()" class="button">Subitrair</button> <br>
+           <button onclick="multiplicar()" class="button">Multiplicar</button><br>
+           <button onclick="dividir()" class="button">Dividir</button><br>
+        </div>
+      </div>
+  </section>  
+
+  <script src='calc.js'> </script>
+</body>
+</html>
